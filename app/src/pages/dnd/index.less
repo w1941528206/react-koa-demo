@@ -1,0 +1,45 @@
+.dnd-content {
+  background-color: #f4f4f4;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .drag-content {
+    padding: 20px 20px 15px 20px;
+    border: '1px solid #ccc';
+    background-color: #fff;
+    border-radius: 5px;
+
+    .card {
+      border: 1px solid #c4c4c4;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      width: 200px;
+      height: 88px;
+      display: flex;
+      justify-content: space-between;
+
+      .handle {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .handleIcon {
+          cursor: move;
+        }
+      }
+
+      .content {
+        width: 70%;
+
+        p {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
